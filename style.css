@@ -5,4 +5,5 @@
 .record-section{display:none}.record-section.open{display:block}.record-head-actions{display:flex;align-items:center;gap:14px}.close-record{width:38px;height:38px;border:1px solid #3b4049;border-radius:50%;background:#171a20;color:#fff;font-size:17px}.close-record:hover{border-color:var(--yellow);color:var(--yellow)}
 .game-status{color:#777e89;font-size:12px;font-weight:800}
 .hero h1,.hero-copy p{word-break:keep-all}.hero-copy{min-width:0}@media(min-width:1050px){.hero-copy{width:560px;min-width:560px;max-width:560px;flex:0 0 560px}.hero h1{width:100%;max-width:560px}.hero-visual{right:max(30px,calc((100% - 1160px)/2))}.quick-stats{right:max(30px,calc((100% - 1160px)/2))}}
+.hero-visual img{position:absolute;right:0;bottom:0;width:100%;height:auto;max-height:100%;object-fit:contain;object-position:center bottom}
 
