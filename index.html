@@ -2,16 +2,19 @@
 <html lang="ko">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#090a0c"><title>햇비 — SBO 기록실</title>
-  <link rel="stylesheet" href="style.css?v=20261022-8">
+  <meta name="theme-color" content="#090a0c"><title>햇비 — VR 스포츠 기록실</title>
+  <link rel="stylesheet" href="style.css?v=20261023-1">
 </head>
 <body>
-  <header class="topbar"><a class="brand" href="#top"><img src="assets/team-logo.png?v=20261022-2" alt="타요 스타포스"><span>SBO <b>RECORDS</b></span></a><nav><a href="#schedule">일정</a><a href="#report">리포트</a></nav><button class="profile-chip" id="openRecord" title="햇비 경기 기록 입력" aria-label="햇비 경기 기록 입력"><img src="assets/profile.png?v=20261022-2" alt="햇비"><span>햇비 · 기록 입력</span></button></header>
+  <header class="topbar"><a class="brand" href="#top"><img src="assets/profile.png?v=20261022-2" alt="햇비"><span>VR SPORTS <b>RECORDS</b></span></a><nav><a href="#sbo">SBO</a><a href="#winter">동계대회</a><a href="#report">리포트</a></nav><button class="profile-chip" id="openRecord" title="햇비 경기 기록 입력" aria-label="햇비 경기 기록 입력"><img src="assets/profile.png?v=20261022-2" alt="햇비"><span>햇비 · 기록 입력</span></button></header>
   <main id="top">
-    <section class="hero player-overview">
+    <section class="content-hub"><div><span>HAETVI VR SPORTS ARCHIVE</span><h1>햇비 VR 스포츠 기록실</h1><p>VR 스포츠에서 펼친 햇비의 경기와 메달 기록을 한곳에.</p></div><div class="content-links"><a href="#sbo"><small>01</small><strong>SBO 야구</strong><span>타요 스타포스 · 좌익수</span></a><a class="winter-link" href="#winter"><small>02</small><strong>릴파동계스포츠대회 1</strong><span>봅슬레이 · 포인트 컬링</span></a></div></section>
+    <section id="sbo" class="hero player-overview">
       <div class="profile-frame"><div class="profile-ring"><img src="assets/profile.png?v=20261022-2" alt="햇비 선수 프로필"></div><span class="jersey-number">62</span></div>
       <div class="player-overview-copy"><span class="overview-label">PLAYER PROFILE</span><div class="player-name-row"><h1>햇비</h1><span>#62</span></div><p class="team-name"><img src="assets/team-logo.png?v=20261022-2" alt="">타요 스타포스</p><dl class="player-details"><div><dt>포지션</dt><dd>좌익수</dd></div><div><dt>타격</dt><dd>우타</dd></div><div><dt>소속</dt><dd>타요 스타포스</dd></div></dl><section class="tryout-record" aria-labelledby="tryoutTitle"><h2 id="tryoutTitle">트라이아웃 등급</h2><div class="tryout-grades"><div><span>타격</span><strong>B−</strong></div><div><span>투구</span><strong>B</strong></div><div><span>수비</span><strong>B</strong></div></div></section><div class="total-record"><div class="total-record-title"><span>SEASON TOTAL</span><strong>총 기록</strong></div><div class="overview-stats"><div><span>타율 AVG</span><strong id="heroAvg">.000</strong></div><div><span>OPS</span><strong id="heroOps">.000</strong></div><div><span>수비율 FPCT</span><strong id="heroFpct">1.000</strong></div></div></div><div class="hero-actions"><button class="primary" data-jump="schedule">경기 일정 보기 →</button><button class="ghost" data-jump="report">상세 리포트</button></div></div>
     </section>
+
+    <section id="winter" class="winter-section"><div class="winter-head"><div><span>VR WINTER SPORTS</span><h2>릴파동계스포츠대회 1</h2><p>햇비 출전 기록 · 봅슬레이 & 포인트 컬링</p></div><div class="medal-total"><strong>3</strong><span>MEDALS</span></div></div><div class="winter-teams"><article class="winter-team"><div class="team-banner"><span>TEAM</span><h3>레드힐즈</h3></div><img class="roster-image" src="assets/winter-redhills.png" alt="레드힐즈 팀 명단"><div class="event-cards"><div class="event-card"><span class="medal bronze">동메달</span><h4>봅슬레이 · 탑승자</h4><p>양도끼 · 따린 · 햇비 · 유샤크</p><img src="assets/winter-bobsleigh.png" alt="레드힐즈 봅슬레이 동메달 기록"></div><div class="event-card"><span class="result">예선</span><h4>포인트 컬링</h4><p>햇비 · 유샤크 / 10 : 8 · 합계 18</p><img src="assets/winter-curling.png" alt="레드힐즈 포인트 컬링 기록"></div></div></article><article class="winter-team"><div class="team-banner"><span>TEAM</span><h3>레드윙즈</h3></div><img class="roster-image" src="assets/winter-redwings.png" alt="레드윙즈 팀 명단"><div class="event-cards"><div class="event-card gold-card"><span class="medal gold">금메달</span><h4>봅슬레이 · 운전수</h4><p class="driver">햇비</p><ol class="lap-times"><li><span>1R</span><b>58.289초</b></li><li><span>2R</span><b>58.077초</b></li><li><span>3R</span><b>57.077초</b></li></ol></div><div class="event-card"><span class="medal bronze">동메달</span><h4>포인트 컬링</h4><p>레드윙즈 팀 · 햇비 출전</p></div></div></article></div></section>
 
     <section id="schedule" class="section"><div class="section-head"><div><span class="kicker">UPCOMING GAMES</span><h2>경기 일정</h2></div><span class="count">리그 3경기 · 결승전</span></div><div class="dates" id="dateTabs"></div><div class="games" id="games"></div></section>
 
