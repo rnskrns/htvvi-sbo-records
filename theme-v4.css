@@ -159,3 +159,7 @@ html[data-theme="light"] #winter .event-cards{border-top-color:#e3e7ec}
 /* Records are now maintained directly in the published archive. */
 .record-menu-wrap,#record.record-section{display:none!important}
 
+/* Replace the exposed white strip between winter information groups. */
+html[data-theme="light"] #winter .winter-profile-copy{background:linear-gradient(145deg,#f7f9fc,#f1f5f8);border:1px solid #e1e6ec;border-radius:24px}
+html[data-theme="light"] #winter .winter-profile-overview{background:#f7f9fb}
+
