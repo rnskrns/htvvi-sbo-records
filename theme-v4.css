@@ -141,3 +141,12 @@ html[data-theme="light"] #winter .winter-summary div:nth-child(3) strong{color:#
 html[data-theme="light"] #winter .winter-summary div:nth-child(4) strong{color:#a95f29}
 @media(max-width:900px){#winter .winter-profile-ring,#sbo .profile-ring{aspect-ratio:1/1}}
 
+/* Give adjacent record groups their own breathing room. */
+#winter .winter-profile-copy .winter-summary{margin-top:22px}
+#winter .winter-teams{align-items:start}
+#winter .winter-team{height:auto;align-self:start}
+#winter .event-cards{padding-top:16px;border-top:1px solid color-mix(in srgb,var(--ui-line) 72%,transparent)}
+#winter .roster-grid+.event-cards{margin-top:4px}
+html[data-theme="light"] #winter .event-cards{border-top-color:#e3e7ec}
+@media(max-width:560px){#winter .winter-profile-copy .winter-summary{margin-top:16px}#winter .event-cards{padding-top:14px}}
+
