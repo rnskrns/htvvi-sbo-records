@@ -7,7 +7,7 @@ const batting=[['pa','타석 PA'],['ab','타수 AB'],['h','안타 H'],['double',
 const fielding=[['po','자살 PO'],['assist','보살 A'],['error','실책 E'],['putoutChance','수비 기회 TC']];
 const publishedRecords={g2:{pa:3,ab:3,h:0,double:0,triple:0,hr:0,rbi:0,bb:0,hbp:0,sf:0,so:1,run:0,po:0,assist:0,error:0,putoutChance:0,clips:[],memo:'타석 결과 · 땅볼 · 직선타 · 삼진'}};
 const savedRecords=JSON.parse(localStorage.getItem('haetvi-records')||'{}');
-let records={...publishedRecords,...savedRecords,g2:{...publishedRecords.g2,...(savedRecords.g2||{})}};
+let records={...publishedRecords,...savedRecords,g2:{...(savedRecords.g2||{}),...publishedRecords.g2}};
 let winterClips=JSON.parse(localStorage.getItem('haetvi-winter-clips')||'[]');
 const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
 function safeUrl(value){try{const u=new URL(value);return ['http:','https:'].includes(u.protocol)?u.href:''}catch{return ''}}
