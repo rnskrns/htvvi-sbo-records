@@ -156,3 +156,6 @@ html[data-theme="light"] #winter .event-cards{border-top-color:#e3e7ec}
 #sbo .tryout-grades{gap:14px}
 #sbo .tryout-grades div{min-height:60px}
 
+/* Records are now maintained directly in the published archive. */
+.record-menu-wrap,#record.record-section{display:none!important}
+
