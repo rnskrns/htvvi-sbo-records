@@ -150,3 +150,9 @@ html[data-theme="light"] #winter .winter-summary div:nth-child(4) strong{color:#
 html[data-theme="light"] #winter .event-cards{border-top-color:#e3e7ec}
 @media(max-width:560px){#winter .winter-profile-copy .winter-summary{margin-top:16px}#winter .event-cards{padding-top:14px}}
 
+/* Keep tryout grades visually attached to their heading. */
+#sbo .tryout-record{padding:15px 18px 17px}
+#sbo .tryout-record h2{margin:0 0 9px;padding:0 0 9px 13px}
+#sbo .tryout-grades{gap:14px}
+#sbo .tryout-grades div{min-height:60px}
+
