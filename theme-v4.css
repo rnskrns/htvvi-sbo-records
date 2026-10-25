@@ -184,3 +184,7 @@ html[data-theme="light"] main .content-hub .content-links a{background:#fff;bord
 html[data-theme="light"] main .content-hub .content-links span{color:#69717d}
 @media(max-width:560px){main .content-hub{padding-top:14px;padding-bottom:14px}main .content-hub .content-links{grid-template-columns:1fr 1fr}main .content-hub .content-links a{min-height:80px;padding:14px 16px}main .content-hub .content-links strong{font-size:20px}main .content-hub .content-links span{display:none}}
 
+/* Schedule cards use one neutral outline regardless of record selection. */
+.game-card.selected{border-color:var(--ui-line);box-shadow:var(--vr-glow)}
+html[data-theme="light"] .game-card.selected{border-color:var(--ui-line);box-shadow:0 24px 70px #263a5512,0 0 0 1px #ffffff inset}
+
