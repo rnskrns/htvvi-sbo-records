@@ -170,3 +170,17 @@ html[data-theme="light"] .report-grid .note{background:#f4f7fa;color:#24282f;bor
 html[data-theme="light"] .report-grid .note small{color:#6f7885}
 html[data-theme="light"] .report-grid .empty{color:#737c88}
 
+/* Compact text-only record tabs and uncropped square profile frames */
+main .content-hub{padding-top:22px;padding-bottom:22px}
+main .content-hub .content-links{gap:10px}
+main .content-hub .content-links a{height:auto;min-height:92px;align-items:center;padding:18px 22px;background:var(--ui-panel);border-color:var(--ui-line)}
+main .content-hub .content-links a:after{display:none}
+main .content-hub .content-links div{position:relative;z-index:1}
+main .content-hub .content-links strong{font-size:24px}
+main .content-hub .content-links span{color:var(--ui-muted)}
+#winter .winter-profile-ring,#sbo .profile-ring{width:100%;height:auto;min-height:0;aspect-ratio:1/1}
+#winter .winter-profile-ring img,#sbo .profile-ring img{width:100%;height:100%;object-fit:contain;object-position:center;transform:none}
+html[data-theme="light"] main .content-hub .content-links a{background:#fff;border-color:#e1e4e9}
+html[data-theme="light"] main .content-hub .content-links span{color:#69717d}
+@media(max-width:560px){main .content-hub{padding-top:14px;padding-bottom:14px}main .content-hub .content-links{grid-template-columns:1fr 1fr}main .content-hub .content-links a{min-height:80px;padding:14px 16px}main .content-hub .content-links strong{font-size:20px}main .content-hub .content-links span{display:none}}
+
